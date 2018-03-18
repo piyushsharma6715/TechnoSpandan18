@@ -7,12 +7,10 @@ Its a three day extravaganza which has students from different colleges particip
 
 ### Application Features
 
-#### Different Views for Events
+#### Different Category Views for Events
 Searching for any event is fun and super easy now.
 
-- Events by day
-
-- Events by Category (bottom navigation view)
+- Events by Category 
 
 - Events classified under various groups (fanlayout manager)
 
