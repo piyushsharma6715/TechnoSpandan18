@@ -1,18 +1,13 @@
 package com.example.streak.technospandan.adapters;
 
-import android.content.Context;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.streak.technospandan.R;
-import com.example.streak.technospandan.utils.MyAdapter;
 
 /**
  * Created by PIYUSH on 12-03-2018.
@@ -20,7 +15,7 @@ import com.example.streak.technospandan.utils.MyAdapter;
 
 public class PagerAdapter extends RecyclerView.Adapter<PagerAdapter.MyPagerAdapter>{
     String title;
-    String technical[] = new String[]{"AIR STRIKE", "NIRMAAN", "THE ROBO KNIGHT", "ROBORACE", "FUMES" , "CHEMWIZZ" , "CODETREX","APP-ATHON", "RULE THE SKY", "LFR", "CRYPTO" , "PLAY WITH CODES", "ELECTRADE", "ELECTROMATRIX", "THE JUNKYARD" , "TATVA", "QUIZ" , "STARTUP"};
+    String technical[] = new String[]{"AIR STRIKE", "NIRMAAN", "THE ROBO KNIGHT", "ROBORACE", "FUMES" , "CHEMWIZZ" , "CODETREX","APP-ATHON", "RULE THE SKY", "LFR", "CRYPTO" , "PLAY WITH CODES", "ELECTRADE", "ELECTROMATRIX", "THE JUNKYARD" , "TATVA", "QUIZ" , "STARTUP","HITZ", "CRACK CAT"};
     String type;
     //String tlocation[] = new String[]{" 7 PM - 9 PM ","10 AM - 12 PM "," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"};
     String tdates[]= new String[]{"22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018"};
